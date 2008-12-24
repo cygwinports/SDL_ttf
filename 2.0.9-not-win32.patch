@@ -1,0 +1,20 @@
+--- origsrc/SDL_ttf-2.0.9/configure.in	2007-07-20 07:54:49.000000000 -0500
++++ src/SDL_ttf-2.0.9/configure.in	2007-07-23 00:38:39.015625000 -0500
+@@ -73,7 +73,7 @@
+     *-*-beos*)
+         ac_default_prefix=/boot/develop/tools/gnupro
+         ;;
+-    *-*-cygwin* | *-*-mingw32*)
++    *-*-mingw32*)
+         if test "$build" != "$host"; then # cross-compiling
+             # Default cross-compile location
+             ac_default_prefix=/usr/local/cross-tools/i386-mingw32
+@@ -135,7 +135,7 @@
+ 
+ dnl Check for OpenGL
+ case "$host" in
+-    *-*-cygwin* | *-*-mingw32*)
++    *-*-mingw32*)
+         MATHLIB=""
+         SYS_GL_LIBS="-lopengl32"
+         ;;

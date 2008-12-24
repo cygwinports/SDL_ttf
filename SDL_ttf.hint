@@ -1,0 +1,5 @@
+category: X11
+sdesc: "SDL text rendering library (sources)"
+ldesc: "This library is a wrapper around the excellent FreeType 2.0 
+library, which allows you to use TrueType fonts to render text in SDL
+applications."
