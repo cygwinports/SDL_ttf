@@ -1,5 +1,5 @@
 category: X11
-requires: cygwin libSDL_ttf2.0_0 libfreetype-devel libSDL-devel
+requires: libSDL_ttf2.0_0 libfreetype-devel libSDL-devel
 external-source: SDL_ttf
 sdesc: "SDL text rendering library (development)"
 ldesc: "This library is a wrapper around the excellent FreeType 2.0 
