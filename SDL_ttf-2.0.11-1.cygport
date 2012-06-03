@@ -3,9 +3,11 @@ HOMEPAGE="http://www.libsdl.org/projects/${PN}/"
 SRC_URI="${HOMEPAGE}/release/${P}.tar.gz"
 PATCH_URI="2.0.9-not-win32.patch"
 
-PKG_NAMES="${PN} lib${PN}2.0_0 lib${PN}-devel"
+PKG_NAMES="lib${PN}2.0_0 lib${PN}-devel"
 libSDL_ttf2_0_0_CONTENTS='usr/bin/*-2-0-0.dll usr/share/doc/'
 libSDL_ttf_devel_CONTENTS='usr/include/ usr/lib/'
 
 DISTCLEANFILES="acinclude.m4"
 NO_AUTOHEADER=1
+
+KEEP_LA_FILES="none"

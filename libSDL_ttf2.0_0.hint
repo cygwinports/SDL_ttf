@@ -1,5 +1,5 @@
 category: X11
-requires: libfreetype6 libgcc1 libSDL1.2_0
+requires: libfreetype6 libSDL1.2_0
 external-source: SDL_ttf
 sdesc: "SDL text rendering library (runtime)"
 ldesc: "This library is a wrapper around the excellent FreeType 2.0 
