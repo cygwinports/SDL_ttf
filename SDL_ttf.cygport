@@ -1,0 +1,20 @@
+NAME="SDL_ttf"
+VERSION=2.0.11
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="SDL text rendering library"
+DESCRIPTION="This library is a wrapper around the excellent FreeType 2.0
+library, which allows you to use TrueType fonts to render text in SDL
+applications."
+HOMEPAGE="http://www.libsdl.org/projects/SDL_ttf/"
+SRC_URI="${HOMEPAGE}/release/${NAME}-${VERSION}.tar.gz"
+PATCH_URI="2.0.9-not-win32.patch"
+
+PKG_NAMES="libSDL_ttf2.0_0 libSDL_ttf-devel"
+libSDL_ttf2_0_0_CONTENTS='usr/bin/*-2-0-0.dll usr/share/doc/'
+libSDL_ttf_devel_CONTENTS='usr/include/ usr/lib/'
+
+DISTCLEANFILES="acinclude.m4"
+NO_AUTOHEADER=1
+
+KEEP_LA_FILES="none"

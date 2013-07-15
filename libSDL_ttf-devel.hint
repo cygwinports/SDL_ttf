@@ -1,7 +1,0 @@
-category: X11
-requires: libSDL_ttf2.0_0 libSDL-devel
-external-source: SDL_ttf
-sdesc: "SDL text rendering library (development)"
-ldesc: "This library is a wrapper around the excellent FreeType 2.0 
-library, which allows you to use TrueType fonts to render text in SDL
-applications."
